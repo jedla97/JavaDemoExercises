@@ -1,5 +1,15 @@
 package jedla.demo.shop;
 
+import jedla.demo.shop.employes.FullTimeEmploye;
+import jedla.demo.shop.employes.Manager;
+import jedla.demo.shop.employes.PartTimeEmploye;
+import jedla.demo.shop.goods.Bicycle;
+import jedla.demo.shop.goods.Good;
+import jedla.demo.shop.goods.Hoodie;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class MyShop {
 
     public static void main(String[] args) {
@@ -14,5 +24,35 @@ public class MyShop {
          *
          * Všechny TODO budou implementovány pouze v této main metodě, nikde jinde není potřeba něco upravovat.
          */
+
+        // vytvořit 3 objekty Bicycle, 3 Hoodie a 1 Good
+
+
+        //Vytvořit 1 objekt FullTimeEmploye, 1 PartTimeEmploye a 1 Manager
+
+
+        // vložit 1 kolo a jednu mikinu do pole goodsList
+
+
+        // part-time zaměstnanec přidá položku do goodList
+
+
+        // fulltime zaměstanec vypíše cenu a a odstraní všechny položky  z goodList
+
+
+        // vypsat jedno zboží pomocí toString
+
+
+        // změnit jméno toho zboží a znovu si to vypsat
+
+
+        // vypsat kolik je daň na nějaké zboží (metoda je v abstratní tříde Good)
+
+
+        // možnost si prozkoušet ještě gettery a settery
+
+
+        // Vytvořit si ještě jednoho zaměstance a zavolat na oba metodu whoAmI (je jedno jaký typ zamestnance to bude)
+
     }
 }

@@ -5,7 +5,7 @@ import jedla.demo.shop.goods.Good;
 import java.util.List;
 
 public class PartTimeEmploye implements Position, InventoryWork{
-    private static String positon = "Part-time employee";
+    public static String positon = "Part-time employee";
 
     private String name;
     private int age;
