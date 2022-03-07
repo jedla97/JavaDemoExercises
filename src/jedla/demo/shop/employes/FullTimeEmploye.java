@@ -5,7 +5,7 @@ import jedla.demo.shop.goods.Good;
 import java.util.List;
 
 public class FullTimeEmploye implements Position, SellerWork, InventoryWork{
-    private static String positon = "Full time employee";
+    public static String positon = "Full time employee";
 
     private String name;
     private int age;
@@ -63,7 +63,7 @@ public class FullTimeEmploye implements Position, SellerWork, InventoryWork{
      * Implementovaná metoda z rozhraní Position
      */
     @Override
-    public void WhoAmI() {
+    public void whoAmI() {
         System.out.println("Hi I'm " + positon + " " + name);
     }
 

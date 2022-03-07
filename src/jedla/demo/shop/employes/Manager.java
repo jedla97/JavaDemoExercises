@@ -1,7 +1,7 @@
 package jedla.demo.shop.employes;
 
 public class Manager implements Position {
-    private static String positon = "Manager";
+    public static String positon = "Manager";
 
     private String name;
     private int age;
@@ -42,7 +42,7 @@ public class Manager implements Position {
     // konec getters and setters
 
     @Override
-    public void WhoAmI() {
+    public void whoAmI() {
         System.out.println("Hi I'm " + positon + " " + name);
     }
 }

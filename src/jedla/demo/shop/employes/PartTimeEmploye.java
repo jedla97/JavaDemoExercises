@@ -5,7 +5,7 @@ import jedla.demo.shop.goods.Good;
 import java.util.List;
 
 public class PartTimeEmploye implements Position, InventoryWork{
-    private static String positon = "Part-time employee";
+    public static String positon = "Part-time employee";
 
     private String name;
     private int age;
@@ -46,7 +46,7 @@ public class PartTimeEmploye implements Position, InventoryWork{
     // konec getters and setters
 
     @Override
-    public void WhoAmI() {
+    public void whoAmI() {
         System.out.println("Hi I'm " + positon + " " + name);
     }
 
